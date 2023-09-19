@@ -10,13 +10,13 @@ TYPESCRIPT MAINLY HAS 2 TYPES OF FUNCTIONS
 function display() {
     console.log("Hello TypeScript!"); //function body
 }
-//display();                                                 //function call  
+display();                                                 //function call  
 //named function with parameters and return type:
 function Sum(x, y) {
     return x + y;
 }
 let d = Sum(2, 3); //passing values in function call
-//console.log(d);
+console.log(d);
 //Anonymous function.
 // a function declared as an expression.
 // steps=>  declare a variable ->then inside it declare your function without name 
@@ -25,7 +25,7 @@ let d = Sum(2, 3); //passing values in function call
 let greeting = function () {
     console.log("Hello TypeScript!");
 };
-//greeting();  //here calling it via variable name
+greeting();  //here calling it via variable name
 //anonymous function with parameter and return type:
 let add = function (x, y) {
     return x + y;
